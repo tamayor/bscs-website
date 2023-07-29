@@ -6,7 +6,7 @@ function WhoAreWe(){
     return(
         <section className="who-are-we">
             <div className='who-are-we--text'>
-                <h2 className="description">WHO ARE WE</h2>
+                <h2 className="description-title">WHO ARE WE</h2>
                 <p className="description">
                 Design & Teach a Course
                 Recognize Who Your Students Are
@@ -18,7 +18,9 @@ function WhoAreWe(){
                 </p>
             </div>
             <div className='hr'></div>
-            <img src={bgImg} className='who-are-we--bgImg' alt='background pic'/>
+            <div  className='who-are-we--bgImg-container'>
+                <img src={bgImg} className='who-are-we--bgImg' alt='background pic'/>
+            </div>
         </section>
     )
 }

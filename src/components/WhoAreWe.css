@@ -1,3 +1,6 @@
+
+@media only screen and (min-width: 999px){
+    
 a{
     text-decoration: none;
 }
@@ -15,34 +18,174 @@ a{
     height: 100vh;
     position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
 }
 .who-are-we--text{
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-
-
+    justify-content: center;
 }
 .description{
     text-align: left;
     color: var(--text-color);
-    width: 50%;
+    width: 70%;
+}
+.description-title{
+    color: var(--text-color);
 }
 .hr{
     position: absolute;
-    right: 40%;
-    height: 50%;
+    right: 50%;
+    height: 100%;
     width: .5px;
     background-color: var(--text-color);
     opacity: .5;
 }
 .who-are-we--bgImg{
-    position: absolute;
-    z-index: -1;
-    width: 400px;
+    height: 80%;
+    object-fit: cover;
     -webkit-mask-image: linear-gradient(90deg, black 50%, transparent 100%);
     mask-image: linear-gradient( 10deg , black 50%, transparent 100%);
+}
+.who-are-we--bgImg-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) {
+
+    a{
+        text-decoration: none;
+    }
+     .nav--menu a{
+        color: var(--text-color);
+        padding: 10px;
+        border-radius: 10px;
+        transition: background-color .5s ease-in-out;
+    }
+    .nav--menu a:hover{
+        background-color: var(--background-color);
+    }
+    
+    .who-are-we{
+        height: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .who-are-we--text{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 400px;
+    
+    }
+    .description-title{
+        text-align: left;
+        color: var(--text-color);
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+        font-size: 40px;
+    }
+    .description{
+        font-size: x-small;
+        text-align: left;
+        color: var(--text-color);
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+    .hr{
+        position: absolute;
+        right: 40%;
+        height: 50%;
+        width: .5px;
+        background-color: var(--text-color);
+        opacity: .5;
+    }
+    .who-are-we--bgImg{
+        position: absolute;
+        z-index: -1;
+        margin-top: 200px;
+        width: 400px;
+        -webkit-mask-image: linear-gradient(360deg, black 50%, transparent 100%);
+        mask-image: linear-gradient( 10deg , black 50%, transparent 100%);
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 998px){
+    
+    a{
+        text-decoration: none;
+    }
+     .nav--menu a{
+        color: var(--text-color);
+        padding: 10px;
+        border-radius: 10px;
+        transition: background-color .5s ease-in-out;
+    }
+    .nav--menu a:hover{
+        background-color: var(--background-color);
+    }
+    
+    .who-are-we{
+        height: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .who-are-we--text{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .description-title{
+        text-align: left;
+        color: var(--text-color);
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+        font-size: 40px;
+    }
+    .description{
+        font-size: x-small;
+        text-align: left;
+        color: var(--text-color);
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+    .hr{
+        height: 1px;
+        width: 100vw;
+        padding: 1px;
+        background-color: var(--text-color);
+
+    }
+    .who-are-we--bgImg-container{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+    }
+    .who-are-we--bgImg{
+        width: 400px;
+        -webkit-mask-image: linear-gradient(360deg, black 50%, transparent 100%);
+        mask-image: linear-gradient( 10deg , black 50%, transparent 100%);
+    }
+    
 }

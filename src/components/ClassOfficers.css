@@ -1,3 +1,5 @@
+@media only screen and (min-width: 999px){
+    
 .class-officer{
     margin: 0 20px;
     padding: 10px;
@@ -30,3 +32,76 @@
 
 
 
+
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px){
+
+    .class-officer{
+        margin: 0 20px;
+        padding: 10px;
+    }
+    .class-officer:hover ,.class-officer:focus, .class-officer:active{
+        transition: background-color .3s ease-in-out;
+        background-color: black;
+        border-radius: 10px;
+    }
+    .class-officer--img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: none;
+        transition: border .3s ease-in-out;
+    }
+    .class-officer:hover .class-officer--img, .class-officer:focus .class-officer--img, .class-officer:active .class-officer--img{
+        border: 5px dotted var(--text-color);
+    }
+    .class-officer--name{
+        margin: 3px;
+        text-align: center;
+        opacity: .8;
+    }
+    .class-officer--position{
+        text-align: center;
+        opacity: .6;
+    }
+        
+}
+
+@media (min-width: 320px) and (max-width: 998px){
+    
+    .class-officer{
+        margin: 0 20px;
+        padding: 10px;
+    }
+    .class-officer:hover ,.class-officer:focus, .class-officer:active{
+        transition: background-color .3s ease-in-out;
+        background-color: black;
+        border-radius: 10px;
+    }
+    .class-officer--img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: none;
+        transition: border .3s ease-in-out;
+    }
+    .class-officer:hover .class-officer--img, .class-officer:focus .class-officer--img, .class-officer:active .class-officer--img{
+        border: 5px dotted var(--text-color);
+    }
+    .class-officer--name{
+        margin: 3px;
+        text-align: center;
+        opacity: .8;
+        color: var(--text-color);
+    }
+    .class-officer--position{
+        text-align: center;
+        opacity: .6;
+        color: var(--text-color);
+    }
+        
+}

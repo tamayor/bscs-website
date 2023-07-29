@@ -1,37 +1,126 @@
 
-.Frame{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+@media only screen and (min-width: 999px){
+    
+    .Frame{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-.mrgn{
-    margin: 5px auto;
-}
-.txt{
-    color: var(--text-color);
-    text-align: center;
-}
-.frame--address{
-    font-size: x-small;
-    opacity: .8;
-}.frame--email{
-    font-size: xx-small;
-    opacity: .6;
-}
-.frame--name{
-    font-size: small;
-}
-.image{
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border: none;
-    transition: border .3s ease-in-out;
-}
+    .mrgn{
+        margin: 5px auto;
+    }
+    .txt{
+        color: var(--text-color);
+        text-align: center;
+    }
+    .frame--address{
+        font-size: small;
+        opacity: .8;
+    }.frame--email{
+        font-size: small;
+        opacity: .6;
+    }
+    .frame--name{
+        font-size: medium;
+    }
+    .image{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border: none;
+        transition: border .3s ease-in-out;
+    }
 
-.Frame:hover .image, .Frame:active .image, .Frame:focus .image {
-    border: 5px dotted var(--text-color);
+    .Frame:hover .image, .Frame:active .image, .Frame:focus .image {
+        border: 5px dotted var(--text-color);
+    }
 }
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px){
+    
+    .Frame{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mrgn{
+        margin: 5px auto;
+    }
+    .txt{
+        color: var(--text-color);
+        text-align: center;
+    }
+    .frame--address{
+        font-size: xx-small;
+        opacity: .8;
+    }.frame--email{
+        font-size: xx-small;
+        opacity: .6;
+    }
+    .frame--name{
+        font-size: small;
+    }
+    .image{
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border: none;
+        transition: border .3s ease-in-out;
+    }
+
+    .Frame:hover .image, .Frame:active .image, .Frame:focus .image {
+        border: 5px dotted var(--text-color);
+    }
+}   
+
+@media (min-width: 320px) and (max-width: 998px){
+    
+    .Frame{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mrgn{
+        margin: 5px auto;
+    }
+    .txt{
+        color: var(--text-color);
+        text-align: center;
+    }
+    .frame--address{
+        font-size: x-small;
+        opacity: .8;
+    }.frame--email{
+        font-size: x-small;
+        opacity: .6;
+    }
+    .frame--name{
+        font-size: small;
+    }
+    .image{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border: none;
+        transition: border .3s ease-in-out;
+    }
+
+    .Frame:hover .image, .Frame:active .image, .Frame:focus .image {
+        border: 5px dotted var(--text-color);
+    }
+}   
+
+
+
+
+

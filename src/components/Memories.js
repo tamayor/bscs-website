@@ -32,7 +32,7 @@ const Memories = () => {
           <p className='memories--caption'></p>
         </div>
       </section>
-      <div>
+      <div className='dots'>
         <span className='dot' onClick={() => {setShowImg(1)}} style={{ backgroundColor: showImg === 1 ? 'rgb(193, 231, 255)' : 'rgb(16, 35, 50)' }}></span>
         <span className='dot' onClick={() => {setShowImg(2)}} style={{ backgroundColor: showImg === 2 ? 'rgb(193, 231, 255)' : 'rgb(16, 35, 50)' }}></span>
         <span className='dot' onClick={() => {setShowImg(3)}} style={{ backgroundColor: showImg === 3 ? 'rgb(193, 231, 255)' : 'rgb(16, 35, 50)' }}></span>
