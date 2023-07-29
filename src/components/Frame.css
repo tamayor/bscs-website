@@ -1,0 +1,37 @@
+
+.Frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mrgn{
+    margin: 5px auto;
+}
+.txt{
+    color: var(--text-color);
+    text-align: center;
+}
+.frame--address{
+    font-size: x-small;
+    opacity: .8;
+}.frame--email{
+    font-size: xx-small;
+    opacity: .6;
+}
+.frame--name{
+    font-size: small;
+}
+.image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: none;
+    transition: border .3s ease-in-out;
+}
+
+.Frame:hover .image, .Frame:active .image, .Frame:focus .image {
+    border: 5px dotted var(--text-color);
+}

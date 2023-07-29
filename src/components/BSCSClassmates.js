@@ -1,0 +1,21 @@
+const BSCSClassmates = [
+  {"id": 1, "name": "Abiy Verdugo", "address": "123 Main St, Anytown, USA", "email": "abiy.verdugo@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 2, "name": "Akari Deamboy", "address": "456 Oak Ave, Sometown, USA", "email": "akari.deamboy@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 3, "name": "Bea Bianca Villaluz", "address": "789 Elm Rd, Cityville, USA", "email": "bea.bianca.villaluz@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 4, "name": "Bien Bionat", "address": "321 Pine St, Villagetown, USA", "email": "bien.bionat@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 5, "name": "Cezar Ryan", "address": "555 Maple Ave, Downtown, USA", "email": "cezar.ryan@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 6, "name": "Charlton Kyle Jara", "address": "777 Oak Ln, Countryside, USA", "email": "charlton.kyle.jara@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 7, "name": "Chav Sabado", "address": "222 Elm Rd, Townsville, USA", "email": "chav.sabado@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 8, "name": "Ciane Francis Villegas", "address": "999 Pine St, Suburbia, USA", "email": "ciane.francis.villegas@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 9, "name": "Coolyn Jabican", "address": "888 Birch Rd, Countryside, USA", "email": "coolyn.jabican@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 10, "name": "Daniel Inocencio", "address": "444 Oak Ave, Cityville, USA", "email": "daniel.inocencio@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 11, "name": "Divine Joy Ermoso", "address": "666 Maple Ave, Anytown, USA", "email": "divine.joy.ermoso@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 12, "name": "Edjay Lindayao", "address": "333 Elm Rd, Sometown, USA", "email": "edjay.lindayao@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 13, "name": "Edward Von Josef Tabang", "address": "777 Pine St, Cityville, USA", "email": "edward.von.josef.tabang@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 14, "name": "Ellisa Batisla Ong", "address": "999 Maple Ave, Anytown, USA", "email": "ellisa.batisla.ong@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 15, "name": "Eula Grace Sta Cruz", "address": "111 Birch Rd, Sometown, USA", "email": "eula.grace.sta.cruz@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 16, "name": "Francis Ivan Narandan", "address": "222 Elm Rd, Villagetown, USA", "email": "francis.ivan.narandan@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 17, "name": "Jara Estologa", "address": "444 Main St, Anytown, USA", "email": "jara.estologa@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  {"id": 18, "name": "Joefy Jhade Braza", "address": "777 Oak Ln, Sometown, USA", "email": "joefy.jhade.braza@example.com", "image": "https://placehold.co/600x400@2x.png"},
+  ]
+export default BSCSClassmates;
