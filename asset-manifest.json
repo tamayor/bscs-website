@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/illymar/bscs-website/static/css/main.5fe0c9da.css",
-    "main.js": "/illymar/bscs-website/static/js/main.07c98971.js",
-    "static/js/787.d8317323.chunk.js": "/illymar/bscs-website/static/js/787.d8317323.chunk.js",
-    "static/media/graduation.png": "/illymar/bscs-website/static/media/graduation.358e239831f4a7fbec06.png",
-    "static/media/guimaras trip.jpg": "/illymar/bscs-website/static/media/guimaras trip.59ddc4cdaf4b4b10d916.jpg",
-    "static/media/silence.jpg": "/illymar/bscs-website/static/media/silence.e4c75ef2b3aad815b0e8.jpg",
-    "static/media/conference.jpg": "/illymar/bscs-website/static/media/conference.c146221a63b29f398287.jpg",
-    "static/media/bgImg-who-are-we.jpg": "/illymar/bscs-website/static/media/bgImg-who-are-we.58030883149ecf1af310.jpg",
-    "index.html": "/illymar/bscs-website/index.html",
-    "main.5fe0c9da.css.map": "/illymar/bscs-website/static/css/main.5fe0c9da.css.map",
-    "main.07c98971.js.map": "/illymar/bscs-website/static/js/main.07c98971.js.map",
-    "787.d8317323.chunk.js.map": "/illymar/bscs-website/static/js/787.d8317323.chunk.js.map"
+    "main.css": "/bscs-website/static/css/main.5fe0c9da.css",
+    "main.js": "/bscs-website/static/js/main.2bf1425b.js",
+    "static/js/787.d8317323.chunk.js": "/bscs-website/static/js/787.d8317323.chunk.js",
+    "static/media/graduation.png": "/bscs-website/static/media/graduation.358e239831f4a7fbec06.png",
+    "static/media/guimaras trip.jpg": "/bscs-website/static/media/guimaras trip.59ddc4cdaf4b4b10d916.jpg",
+    "static/media/silence.jpg": "/bscs-website/static/media/silence.e4c75ef2b3aad815b0e8.jpg",
+    "static/media/conference.jpg": "/bscs-website/static/media/conference.c146221a63b29f398287.jpg",
+    "static/media/bgImg-who-are-we.jpg": "/bscs-website/static/media/bgImg-who-are-we.58030883149ecf1af310.jpg",
+    "index.html": "/bscs-website/index.html",
+    "main.5fe0c9da.css.map": "/bscs-website/static/css/main.5fe0c9da.css.map",
+    "main.2bf1425b.js.map": "/bscs-website/static/js/main.2bf1425b.js.map",
+    "787.d8317323.chunk.js.map": "/bscs-website/static/js/787.d8317323.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fe0c9da.css",
-    "static/js/main.07c98971.js"
+    "static/js/main.2bf1425b.js"
   ]
 }
