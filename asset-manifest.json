@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bscs-website/static/css/main.5fe0c9da.css",
-    "main.js": "/bscs-website/static/js/main.2bf1425b.js",
+    "main.css": "/bscs-website/static/css/main.fa0d0aa4.css",
+    "main.js": "/bscs-website/static/js/main.b55c431c.js",
     "static/js/787.d8317323.chunk.js": "/bscs-website/static/js/787.d8317323.chunk.js",
     "static/media/graduation.png": "/bscs-website/static/media/graduation.358e239831f4a7fbec06.png",
     "static/media/guimaras trip.jpg": "/bscs-website/static/media/guimaras trip.59ddc4cdaf4b4b10d916.jpg",
@@ -9,12 +9,12 @@
     "static/media/conference.jpg": "/bscs-website/static/media/conference.c146221a63b29f398287.jpg",
     "static/media/bgImg-who-are-we.jpg": "/bscs-website/static/media/bgImg-who-are-we.58030883149ecf1af310.jpg",
     "index.html": "/bscs-website/index.html",
-    "main.5fe0c9da.css.map": "/bscs-website/static/css/main.5fe0c9da.css.map",
-    "main.2bf1425b.js.map": "/bscs-website/static/js/main.2bf1425b.js.map",
+    "main.fa0d0aa4.css.map": "/bscs-website/static/css/main.fa0d0aa4.css.map",
+    "main.b55c431c.js.map": "/bscs-website/static/js/main.b55c431c.js.map",
     "787.d8317323.chunk.js.map": "/bscs-website/static/js/787.d8317323.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fe0c9da.css",
-    "static/js/main.2bf1425b.js"
+    "static/css/main.fa0d0aa4.css",
+    "static/js/main.b55c431c.js"
   ]
 }
