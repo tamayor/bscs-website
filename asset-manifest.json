@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bscs-website/static/css/main.fa0d0aa4.css",
+    "main.css": "/bscs-website/static/css/main.5216a7d0.css",
     "main.js": "/bscs-website/static/js/main.b55c431c.js",
     "static/js/787.d8317323.chunk.js": "/bscs-website/static/js/787.d8317323.chunk.js",
     "static/media/graduation.png": "/bscs-website/static/media/graduation.358e239831f4a7fbec06.png",
@@ -9,12 +9,12 @@
     "static/media/conference.jpg": "/bscs-website/static/media/conference.c146221a63b29f398287.jpg",
     "static/media/bgImg-who-are-we.jpg": "/bscs-website/static/media/bgImg-who-are-we.58030883149ecf1af310.jpg",
     "index.html": "/bscs-website/index.html",
-    "main.fa0d0aa4.css.map": "/bscs-website/static/css/main.fa0d0aa4.css.map",
+    "main.5216a7d0.css.map": "/bscs-website/static/css/main.5216a7d0.css.map",
     "main.b55c431c.js.map": "/bscs-website/static/js/main.b55c431c.js.map",
     "787.d8317323.chunk.js.map": "/bscs-website/static/js/787.d8317323.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa0d0aa4.css",
+    "static/css/main.5216a7d0.css",
     "static/js/main.b55c431c.js"
   ]
 }
